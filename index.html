@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="css/travelexperts.css">
         <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/7a976362d3.js"></script>
 
     </head>
 
@@ -30,9 +31,38 @@
             <section>
                 <h3>Travel Plans</h3>
 
+<!--            Registration Section-->
             </section>
-            <section>
+            <section class="registration--main_form">
+                <h1>Register</h1>
+                <form name="RegForm" action="/submit.php" onsubmit="return GEEKFORGEEKS()" method="post">
+                    <ul class="row form--inputs">
+                        <li class="span-2-of-12 col box"><label for="Name">Name:</label></li>
+                        <li class="span-8-of-12 col box"><input id="Name" type="text" size=65 name="Name"></li>
+                    </ul>
 
+                    <ul class="row form--inputs">
+                        <li class="span-2-of-12 col box"><label for="Address">Address:</label></li>
+                        <li class="span-8-of-12 col box"><input id="Address" type="text" size=65 name="Address"></li>
+                    </ul>
+                    <ul class="row form--inputs">
+                        <li class="span-2-of-12 col box"><label for="Email">Email:</label></li>
+                        <li class="span-8-of-12 col box"><input id="Email" type="Email" size=65 name="EMail"></li>
+                    </ul>
+                    <ul class="row form--inputs">
+                        <li class="span-2-of-12 col box"><label for="Tel">Telephone:</label></li>
+                        <li class="span-8-of-12 col box"><input id="Tel" type="text" size=65 name="Telephone"></li>
+                    </ul>
+                    <ul class="row form--inputs">
+                        <li class="span-2-of-12 col box"><label for="comment">Comment:</label></li>
+                        <li class="span-1-of-12 col box"><textarea id="comment" cols="55" rows="10"
+                                                                   name="Comment"> </textarea></li>
+                    </ul>
+                    <ul class="row">
+                        <li><input class="button" type="submit" value="Send" name="Submit">
+                            <input class="button" type="reset" value="Reset" name="Reset"></li>
+                    </ul>
+                </form>
             </section>
 <!--            Contact Section - Sumit-->
             <section>
