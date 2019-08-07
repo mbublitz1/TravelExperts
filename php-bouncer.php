@@ -1,11 +1,6 @@
-<HTML>
+<!-- JOHN -->
 
-<HEAD>
-  <TITLE>Your Form Values</TITLE>
-</HEAD>
-
-<BODY>
-  <?PHP
+<?PHP
   $server = "localhost";
   $username = "root";
   $password = "";
@@ -53,21 +48,17 @@
   )";
 
   if ($conn->query($sql) === TRUE) {
-    echo "New record created successfully";
+    echo "<script type='text/javascript'>
+    setTimeout(function () {
+      window.location.href = 'index.php';
+    }, 2000);
+    </script>";
+    echo "Form successfully submitted";
   } else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
+    echo "Error: " . $sql . "<br>" . $conn->error .
+    "<br><br><br><br>
+    Please contact the local administrtor.";
   }
 
   $conn->close();
-
-   print("<h1>Your form sent the following values:</h1>");
-   print("<table border='1'><tr><th>FIELDNAME</th><th>VALUE</th></tr>");
-      foreach (array_keys($_POST) as $name)
-      {
-         print("<tr><td>$name</td><td>$_POST[$name]</td></tr>");
-      }
-   print("</table>");
 ?>
-</BODY>
-
-</HTML>
