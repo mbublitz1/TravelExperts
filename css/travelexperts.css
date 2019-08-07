@@ -78,11 +78,11 @@ main > section:nth-of-type(odd) {
 }
 nav{}
 
-/*main{*/
-/*      background: #E4D9D7;*/
-/*  }*/
 section {
 
+}
+.registration--main_form h3, .registration--main_form label{
+    color: white;
 }
 
 footer{}

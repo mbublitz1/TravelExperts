@@ -10,10 +10,10 @@
         <link rel="stylesheet"  href="css/reset.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/travelexperts.css">
+        <link rel="stylesheet" href="css/grid.css">
         <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/7a976362d3.js"></script>
-
     </head>
 
     <body>
@@ -34,13 +34,16 @@
 <!--            Registration Section-->
             </section>
             <section class="registration--main_form">
-                <h1>Register</h1>
-                <form name="RegForm" action="/submit.php" onsubmit="return GEEKFORGEEKS()" method="post">
+                <h3>Register</h3>
+                <form name="RegForm" action="/submit.php" method="post">
                     <ul class="row form--inputs">
-                        <li class="span-2-of-12 col box"><label for="Name">Name:</label></li>
+                        <li class="span-2-of-12 col box"><label for="Name">First Name:</label></li>
                         <li class="span-8-of-12 col box"><input id="Name" type="text" size=65 name="Name"></li>
                     </ul>
-
+                    <ul class="row form--inputs">
+                        <li class="span-2-of-12 col box"><label for="Name">Last Name:</label></li>
+                        <li class="span-8-of-12 col box"><input id="Name" type="text" size=65 name="Name"></li>
+                    </ul>
                     <ul class="row form--inputs">
                         <li class="span-2-of-12 col box"><label for="Address">Address:</label></li>
                         <li class="span-8-of-12 col box"><input id="Address" type="text" size=65 name="Address"></li>
