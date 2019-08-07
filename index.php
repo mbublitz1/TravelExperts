@@ -23,14 +23,17 @@
                 <h3>We are here to get you there!</h3>
             </div>
         </header>
-
         <nav>
+            <ul class="row">
+                <li><a href="#">Travel Plans</a></li>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
         </nav>
 
         <main>
             <section>
                 <h3>Travel Plans</h3>
-
 <!--            Registration Section-->
             </section>
             <section class="registration--main_form">
@@ -38,37 +41,7 @@
                 <?php
                     include("register.php");
                 ?>
-<!--                <form name="RegForm" action="/submit.php" method="post">-->
-<!--                    <ul class="row form&#45;&#45;inputs">-->
-<!--                        <li class="span-2-of-12 col box"><label for="Name">First Name:</label></li>-->
-<!--                        <li class="span-8-of-12 col box"><input id="Name" type="text" size=65 name="Name"></li>-->
-<!--                    </ul>-->
-<!--                    <ul class="row form&#45;&#45;inputs">-->
-<!--                        <li class="span-2-of-12 col box"><label for="Name">Last Name:</label></li>-->
-<!--                        <li class="span-8-of-12 col box"><input id="Name" type="text" size=65 name="Name"></li>-->
-<!--                    </ul>-->
-<!--                    <ul class="row form&#45;&#45;inputs">-->
-<!--                        <li class="span-2-of-12 col box"><label for="Address">Address:</label></li>-->
-<!--                        <li class="span-8-of-12 col box"><input id="Address" type="text" size=65 name="Address"></li>-->
-<!--                    </ul>-->
-<!--                    <ul class="row form&#45;&#45;inputs">-->
-<!--                        <li class="span-2-of-12 col box"><label for="Email">Email:</label></li>-->
-<!--                        <li class="span-8-of-12 col box"><input id="Email" type="Email" size=65 name="EMail"></li>-->
-<!--                    </ul>-->
-<!--                    <ul class="row form&#45;&#45;inputs">-->
-<!--                        <li class="span-2-of-12 col box"><label for="Tel">Telephone:</label></li>-->
-<!--                        <li class="span-8-of-12 col box"><input id="Tel" type="text" size=65 name="Telephone"></li>-->
-<!--                    </ul>-->
-<!--                    <ul class="row form&#45;&#45;inputs">-->
-<!--                        <li class="span-2-of-12 col box"><label for="comment">Comment:</label></li>-->
-<!--                        <li class="span-1-of-12 col box"><textarea id="comment" cols="55" rows="10"-->
-<!--                                                                   name="Comment"> </textarea></li>-->
-<!--                    </ul>-->
-<!--                    <ul class="row">-->
-<!--                        <li><input class="button" type="submit" value="Send" name="Submit">-->
-<!--                            <input class="button" type="reset" value="Reset" name="Reset"></li>-->
-<!--                    </ul>-->
-<!--                </form>-->
+
             </section>
 <!--            Contact Section - Sumit-->
             <section>
