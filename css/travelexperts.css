@@ -5,14 +5,25 @@ html {font-size: 62.5%;
 
 *, *:before, *:after { box-sizing: inherit; }
 
-body {font-size: 16px; font-size: 1.6rem; } /* = 16px */
+body {
+    font-size: 16px;
+    font-size: 1.6rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url(../img/GrandCayman.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+} /* = 16px */
 
 header, main, footer {}
 
 /*  Typograhical Scales  */
 h1 {  }
 h2 {  }
-h3 {  }
+h3 {
+    font-size: 5rem;
+    padding-top: 4rem;
+    text-align: center;
+}
 
 /* Grids three column */
 /*[class*='col-'] {*/
@@ -30,19 +41,50 @@ h3 {  }
 /*.gridfix {margin-right: 0;}*/
 
 header{
-    height: 800px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url(../img/greece.jpg);
-    background-size: cover;
-    background-position: center;
+    height: 720px;
+
 }
 
-header p {
-    width: 300px;
+header h1, h3 {
     margin: 0 auto;
+    width: 848px;
+}
+
+header h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 85px;
     color: white;
 }
+
+header h3 {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#parent {
+    padding: 8% 0;
+}
+#child {
+    padding: 10% 0;
+}
+
+main > section {
+    height: 500px;
+}
+
+main > section:nth-of-type(odd) {
+    background: white;
+    color: #183840;
+}
 nav{}
-main{}
+
+/*main{*/
+/*      background: #E4D9D7;*/
+/*  }*/
+section {
+
+}
+
 footer{}
 
 
