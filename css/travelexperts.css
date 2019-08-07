@@ -8,7 +8,7 @@ html {font-size: 62.5%;
 body {
     font-size: 16px;
     font-size: 1.6rem;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url(../img/GrandCayman.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url(../img/ocean-club.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
