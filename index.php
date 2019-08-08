@@ -22,9 +22,10 @@
                 <div class="row">
 <!--                    <img class="logo" src="./img/TravelExperts.png" alt="Travel experts logo">-->
                     <ul class="main-nav">
-                        <li><a href="#">Travel Plans</a></li>
-                        <li><a href="#">Register</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#Plans">Travel Plans</a></li>
+                        <li><a href="#Register">Register</a></li>
+                        <li><a href="#AboutUs">About Us</a></li>
+                        <li><a href="#ContactUs">Contact Us</a></li>
                     </ul>
                 </div>
             </nav>
@@ -36,11 +37,11 @@
 
         <main>
             <section>
-                <h3>Travel Plans</h3>
+                <h3 id="Plans">Travel Plans</h3>
 <!--            Registration Section-->
             </section>
             <section class="registration--main_form">
-                <h3>Register</h3>
+                <h3 id="Register">Register</h3>
                 <?php
                     include("register.php");
                 ?>
@@ -48,7 +49,7 @@
             </section>
 <!--            Contact Section - Sumit-->
             <section>
-                <h3>Contact Us</h3>
+                <h3 id="ContactUs">Contact Us</h3>
                 <div class="contact row">
                     <div class="col span-1-of-3">
                         <i class="fas fa-envelope-open-text fa-3x"></i>
@@ -61,9 +62,14 @@
                     </div>
                 </div>
             </section>
+            <a href="#" class="back-to-top"><i id="arrow" class="fas fa-arrow-alt-circle-up fa-3x"></i></a>
         </main>
 
         <footer>
         </footer>
+<!--        <script src="vendors/js/jquery-1.12.0.min.js"></script>-->
+        <script src="js/vendor/jquery-1.12.0.min.js"></script>
+        <script src="js/node_modules/jquery-waypoints/waypoints.min.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>
