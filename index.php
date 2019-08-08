@@ -22,7 +22,7 @@
       ?>
         <header>
             <nav>
-                <div class="row js--section-features">
+                <div class="row">
 <!--                    <img class="logo" src="./img/TravelExperts.png" alt="Travel experts logo">-->
                     <ul class="main-nav">
                         <li><a href="#Plans">Travel Plans</a></li>
@@ -38,20 +38,19 @@
             </div>
         </header>
 
-        <main>
-            <section>
-                <h3 id="Plans">Travel Plans</h3>
+        <main class="js--section-features">
+            <section id="Plans">
+                <h3>Travel Plans</h3>
 <!--            Registration Section-->
             </section>
-            <section class="registration--main_form">
-                <h3 id="Register">Register</h3>
+            <section id="Register" class="registration--main_form">
+                <h3>Register</h3>
                 <?php
                     include("register.php");
                 ?>
-
             </section>
 <!--            Contact Section - Sumit-->
-            <section>
+            <section id="ContactUs">
                 <h3>Get In Touch</h3>
                 <div class="contact row">
                     <div class="col span-1-of-3">

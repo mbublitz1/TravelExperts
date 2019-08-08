@@ -31,6 +31,6 @@ $(document).ready(function() {
                 $('nav').removeClass('sticky');
             }
         }, {
-            offset: '80px;'
+            offset: '10px;'
         });
 });
