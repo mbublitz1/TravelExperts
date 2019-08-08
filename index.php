@@ -17,19 +17,22 @@
     </head>
 
     <body>
-        <header id="parent">
-            <div id="child">
+        <header>
+            <nav>
+                <div class="row">
+<!--                    <img class="logo" src="./img/TravelExperts.png" alt="Travel experts logo">-->
+                    <ul class="main-nav">
+                        <li><a href="#">Travel Plans</a></li>
+                        <li><a href="#">Register</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="heading-text-box">
                 <h1>Welcome to Travel Experts</h1>
                 <h3>We are here to get you there!</h3>
             </div>
         </header>
-        <nav>
-            <ul class="row">
-                <li><a href="#">Travel Plans</a></li>
-                <li><a href="#">Register</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-        </nav>
 
         <main>
             <section>
@@ -46,6 +49,17 @@
 <!--            Contact Section - Sumit-->
             <section>
                 <h3>Contact Us</h3>
+                <div class="contact row">
+                    <div class="col span-1-of-3">
+                        <i class="fas fa-envelope-open-text fa-3x"></i>
+                    </div>
+                    <div class="col span-1-of-3">
+                        <i class="fas fa-phone-square-alt fa-3x"></i>
+                    </div>
+                    <div class="col span-1-of-3">
+                        <i class="fas fa-map-marker-alt fa-3x"></i>
+                    </div>
+                </div>
             </section>
         </main>
 

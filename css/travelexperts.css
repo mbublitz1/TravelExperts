@@ -1,9 +1,14 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-html {font-size: 62.5%;
-		box-sizing: border-box;
-		}
+html {
+    font-size: 62.5%;
+}
 
-*, *:before, *:after { box-sizing: inherit; }
+
 
 body {
     font-size: 16px;
@@ -12,10 +17,11 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+
 } /* = 16px */
 
 .row {
-    max-width: 1260px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -34,24 +40,22 @@ h3 {
     text-align: center;
 }
 
-/* Grids three column */
-/*[class*='col-'] {*/
-/*    float: left;*/
-/*    display: block;*/
-/*    margin: 0 4.255% 4.255% 0;*/
-/*    padding: 4.255%;*/
-/*}*/
+h2:after, h3:after {
+    display: block;
+    height: 2px;
+    background-color: #217dbb;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
 
-/*.col-3-3{width: 100%;}*/
-/*.col-2-3 {width: 65.2482%;}*/
-/*.col-1-3 {width: 30.4964%;}*/
+/*---------------------------------------------*/
+/*HEADER*/
+/*---------------------------------------------*/
 
-/*[class*='col']:last-of-type { margin-right: 0; }*/
-/*.gridfix {margin-right: 0;}*/
-
-header{
-    height: 720px;
-
+header {
+    height: 100vh;
 }
 
 header h1, h3 {
@@ -70,12 +74,81 @@ header h3 {
     font-family: 'Ubuntu', sans-serif;
 }
 
-#parent {
-    padding: 8% 0;
+/*Responsible for centering welcome text*/
+.heading-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-#child {
-    padding: 10% 0;
+
+.logo {
+    /*Sets height of logo*/
+    height: 80px;
+    /*Width should be determined automatically*/
+    width: auto;
+    /*image to be floated to the left*/
+    float: left;
+    /*add space between the top of page and logo*/
+    margin-top: 10px;
 }
+
+/*---------------------------------------------*/
+/*NAVIGATION*/
+/*---------------------------------------------*/
+
+nav ul li {
+    top: 10px;
+    right: 10px;
+    Display: inline-block;
+    color: white;
+}
+
+.main-nav {
+    /*Navigation unordered list should be floated to the right*/
+    float: right;
+    /*Get rid of bullet points*/
+    list-style: none;
+    /*Add space between top of page an menu*/
+    margin-top: 40px;
+}
+
+/*Select all li inside ul list in main-nav class*/
+.main-nav li {
+    /*change display style to inline block*/
+    display: inline-block;
+    margin-left: 40px;
+}
+
+/*Select all anchor elements with li as parent*/
+/*Adding link and visited pseudo code will give effects when hovering over menu*/
+.main-nav li a:link,
+.main-nav li a:visited
+{
+    padding: 8px 0;
+    /*text to white*/
+    color: #fff;
+    /*remove underlines from menu items*/
+    text-decoration: none;
+    /*change text to upper case*/
+    text-transform: uppercase;
+    /*this will be 90% of base font in HTML selector, which would be 18px to figure out divide 18px by 20px to get .90 or 90%*/
+    font-size: 90%;
+    /*This will create the border but since you don't want to see it before the element is hovered over this needs to be made*/
+    /*transparent*/
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    /*This will add the solid border when an element is hovered over*/
+    border-bottom: 2px solid  #0099cc;
+}
+/*---------------------------------------------*/
+/*MAIN*/
+/*---------------------------------------------*/
 
 main > section {
     height: 500px;
@@ -85,35 +158,60 @@ main > section:nth-of-type(odd) {
     background: white;
     color: #183840;
 }
-nav{
-    position: absolute;
-}
 
-nav ul {
-    position: relative;
-}
+/*---------------------------------------------*/
+/*REGISTRATION*/
+/*---------------------------------------------*/
 
-nav ul li {
-    top: 10px;
-    right: 10px;
-    Display: inline-block;
+.registration--main_form h3,
+.registration--main_form label,
+.registration--main_form p
+{
     color: white;
 }
 
-section {
-
-}
-.registration--main_form h3, .registration--main_form label{
-    color: white;
+#form {
+    padding-top: 10px;
 }
 
-footer{}
+.form--inputs label {
+    padding-top: 8px;
+}
 
 .form--inputs input {
-    width: 375px;
-    height: 30px;
+    width: 220px;
+    line-height: 30px;
     border-radius: 5px;
+    float: right;
 }
 
-a:link a:visited { color: #999999; }
-a:hover a:active { color: #000000; }
+.form--inputs li {
+    padding: 15px;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    padding: 2rem 5rem;
+    background-color: #ffffff;
+    border:1px solid #000000;
+    color:#000000;
+    font-size:1.6rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+/*---------------------------------------------*/
+/*CONTACT*/
+/*---------------------------------------------*/
+
+.contact {
+
+    padding-top: 40px;
+    text-align: center;
+}
+footer{}
+
+/*a:link a:visited { color: #999999; }*/
+/*a:hover a:active { color: #000000; }*/
