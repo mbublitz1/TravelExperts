@@ -77,15 +77,12 @@
 
         <footer>
         </footer>
-<<<<<<< HEAD
-        <?php
-          $conn->close();
-        ?>
-=======
 <!--        <script src="vendors/js/jquery-1.12.0.min.js"></script>-->
         <script src="js/vendor/jquery-1.12.0.min.js"></script>
         <script src="js/node_modules/jquery-waypoints/waypoints.min.js"></script>
         <script src="js/main.js"></script>
->>>>>>> 0525d3b09228fb5d736f6bb044da9784f3462a8d
+        <?php
+          $conn->close();
+        ?>
     </body>
 </html>
