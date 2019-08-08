@@ -22,7 +22,7 @@
       ?>
         <header>
             <nav>
-                <div class="row">
+                <div class="row js--section-features">
 <!--                    <img class="logo" src="./img/TravelExperts.png" alt="Travel experts logo">-->
                     <ul class="main-nav">
                         <li><a href="#Plans">Travel Plans</a></li>

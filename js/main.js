@@ -24,7 +24,7 @@ $(document).ready(function() {
     });
 
     /* For the sticky navigation */
-    /*    $('.js--section-features').waypoint(function(direction) {
+        $('.js--section-features').waypoint(function(direction) {
             if (direction == "down") {
                 $('nav').addClass('sticky');
             } else {
@@ -32,5 +32,5 @@ $(document).ready(function() {
             }
         }, {
             offset: '80px;'
-        });*/
+        });
 });
