@@ -2,6 +2,20 @@
     <div id="form" class="row">
         <div class="col span-1-of-3">
             <p>Please register with our system in order to start booking trips.</p>
+
+            <?php
+              $sql = "SELECT AgncyCity FROM agencies";
+              $result = $conn->query($sql);
+
+              echo "<select name='AgncyCity'>";
+              while($row = $result->fetch_assoc()) {
+                  echo "<option value=$row[AgncyCity]>
+                    $row[AgncyCity]
+                  </option>";
+                }
+              echo "</select>";
+            ?>
+
         </div>
         <div class="col span-1-of-3">
             <ul class="form--inputs">

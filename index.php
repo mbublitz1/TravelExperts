@@ -17,6 +17,9 @@
     </head>
 
     <body>
+      <?php
+        include("data-connect.php");
+      ?>
         <header>
             <nav>
                 <div class="row">
@@ -65,5 +68,8 @@
 
         <footer>
         </footer>
+        <?php
+          $conn->close();
+        ?>
     </body>
 </html>
