@@ -1,5 +1,5 @@
 <form action="php-bouncer.php" method="post">
-    <div id="form" class="row">
+    <div id="form" class="pgrow">
         <div class="col span-1-of-3">
             <p>Please register with our system in order to start booking trips.</p>
 

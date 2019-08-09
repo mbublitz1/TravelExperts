@@ -20,7 +20,7 @@ body {
 
 } /* = 16px */
 
-.row {
+.pgrow {
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -106,7 +106,7 @@ header h3 {
 /*    color: white;*/
 /*}*/
 
-.main-nav {
+.head-nav {
     top: 10px;
     right: 10px;
     Display: inline-block;
@@ -120,7 +120,7 @@ header h3 {
 }
 
 /*Select all li inside ul list in main-nav class*/
-.main-nav li {
+.head-nav li {
     /*change display style to inline block*/
     display: inline-block;
     margin-left: 40px;
@@ -128,8 +128,8 @@ header h3 {
 
 /*Select all anchor elements with li as parent*/
 /*Adding link and visited pseudo code will give effects when hovering over menu*/
-.main-nav li a:link,
-.main-nav li a:visited
+.head-nav li a:link,
+.head-nav li a:visited
 {
     padding: 8px 0;
     /*text to white*/
@@ -146,10 +146,25 @@ header h3 {
     transition: border-bottom 0.2s;
 }
 
-.main-nav li a:hover,
-.main-nav li a:active {
+.head-nav li a:hover,
+.head-nav li a:active,
+.head-nav li button:hover,
+.head-nav li button:active {
     /*This will add the solid border when an element is hovered over*/
     border-bottom: 2px solid  #0099cc;
+}
+
+.loginlnk {
+    background:none;
+    color:inherit;
+    border:none;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+
+}
+
+.dropdown-menu.p-4.show {
+    width: 200px;
 }
 
 /*Sticky nav*/
@@ -163,15 +178,18 @@ header h3 {
     z-index: 9999;
 }
 
-.sticky .main-nav {
+.sticky .head-nav {
     margin: 25px 0 0 0;
 }
 
-.sticky .main-nav li a:link,
-.sticky .main-nav li a:visited {
+.sticky .head-nav li a:link,
+.sticky .head-nav li a:visited,
+.head-nav li button:link,
+.head-nav li button:visited {
      padding: 8px 0;
      color: #555;
  }
+
 /*---------------------------------------------*/
 /*MAIN*/
 /*---------------------------------------------*/
@@ -282,3 +300,4 @@ a.back-to-top {
 #arrow {
     padding-top: 3px;
 }
+

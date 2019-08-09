@@ -19,18 +19,18 @@ $(document).ready(function() {
         event.preventDefault();
         var target = $(this.hash);
         $('html, body').animate({
-            scrollTop: target.offset().top
+            scrollTop: target.offset().top - 80
         }, duration)
     });
 
     /* For the sticky navigation */
-        $('.js--section-features').waypoint(function(direction) {
-            if (direction == "down") {
-                $('nav').addClass('sticky');
-            } else {
-                $('nav').removeClass('sticky');
-            }
-        }, {
-            offset: '10px;'
-        });
+    $('.js--section-features').waypoint(function(direction) {
+        if (direction == "down") {
+            $('nav').addClass('sticky');
+        } else {
+            $('nav').removeClass('sticky');
+        }
+    }, {
+        offset: '10px;'
+    });
 });

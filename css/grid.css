@@ -9,16 +9,16 @@
 
 /*  GROUPING  ============================================================================= */
 
-.row {
+.pgrow {
     zoom: 1; /* For IE 6/7 (trigger hasLayout) */
 }
 
-.row:before,
-.row:after {
+.pgrow:before,
+.pgrow:after {
     content:"";
     display:table;
 }
-.row:after {
+.pgrow:after {
     clear:both;
 }
 
