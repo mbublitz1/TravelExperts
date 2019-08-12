@@ -83,9 +83,9 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="img/1Caribbean_New_Year/1.jpeg" alt="Los Angeles">
+                            <img src="img/1Caribbean_New_Year/1.jpg" alt="Los Angeles">
+                            <img src="img/1Caribbean_New_Year/a(2).jpg" alt="Los Angeles">
                             <img src="img/1Caribbean_New_Year/2.jpg" alt="Los Angeles">
-                            <img src="img/1Caribbean_New_Year/3.jpg" alt="Los Angeles">
                         </div>
 
                         <div class="carousel-item">
@@ -95,6 +95,15 @@
                         </div>
 
                         <div class="carousel-item">
+                            <img src="img/3Asian_Expedition/img1.jpg" alt="Chicago">
+                            <img src="img/3Asian_Expedition/Thailand.jpg" alt="Chicago">
+                            <img src="img/3Asian_Expedition/Boracay-Philippines-1024x768.jpg" alt="Chicago">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="img/4European_Vacation/london/london.jpg" alt="">
+                            <img src="img/4European_Vacation/paris/paris.jpg" alt="">
+                            <img src="img/4European_Vacation/rome/rome-italy.jpg" alt="">
                         </div>
                     </div>
 
@@ -146,9 +155,10 @@
         </footer>
 <!--        <script src="vendors/js/jquery-1.12.0.min.js"></script>-->
         <script src="vendor/js/jquery-3.4.1.min.js"></script>
-        <script src="vendor/js/node_modules/jquery-waypoints/waypoints.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js"></script>
         <script src="vendor/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="vendor/js/node_modules/jquery-waypoints/waypoints.min.js"></script>
         <script src="js/main.js"></script>
         <?php
           $conn->close();
