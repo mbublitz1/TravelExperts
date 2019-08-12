@@ -119,7 +119,7 @@
 <!--            Contact Section - Sumit-->
             <section id="ContactUs">
               <?php
-                include("data-connect.php");
+                include("contact-us.php");
               ?>
                 <!-- <h3>Get In Touch</h3>
                 <div class="contact pgrow">
