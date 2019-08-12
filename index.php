@@ -6,10 +6,12 @@
         <title>Travel Experts</title>
         <meta name="description" content="Travel Experts website">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
         <link rel="stylesheet"  href="css/reset.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/travelexperts.css">
@@ -72,6 +74,40 @@
         <main class="js--section-features">
             <section id="Plans">
                 <h3>Travel Plans</h3>
+                <div id="plans" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#plans" data-slide-to="0" class="active"></li>
+                        <li data-target="#plans" data-slide-to="1"></li>
+                        <li data-target="#plans" data-slide-to="2"></li>
+                    </ul>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/1Caribbean_New_Year/1.jpeg" alt="Los Angeles">
+                            <img src="img/1Caribbean_New_Year/2.jpg" alt="Los Angeles">
+                            <img src="img/1Caribbean_New_Year/3.jpg" alt="Los Angeles">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="img/2Polynesian_Paradise/1.jpeg" alt="Chicago">
+                            <img src="img/2Polynesian_Paradise/2.jpg" alt="Chicago">
+                            <img src="img/2Polynesian_Paradise/3.jpg" alt="Chicago">
+                        </div>
+
+                        <div class="carousel-item">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#plans" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#plans" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
 <!--            Registration Section-->
             </section>
             <section id="Register" class="registration--main_form">
