@@ -20,7 +20,7 @@ body {
 
 } /* = 16px */
 
-.row {
+.pgrow {
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -32,7 +32,8 @@ body {
 header, main, footer {}
 
 /*  Typograhical Scales  */
-h1 {  }
+h
+{  }
 h2 {  }
 h3 {
     font-size: 5rem;
@@ -98,14 +99,18 @@ header h3 {
 /*NAVIGATION*/
 /*---------------------------------------------*/
 
-nav ul li {
+/*nav ul li {*/
+/*    top: 10px;*/
+/*    right: 10px;*/
+/*    Display: inline-block;*/
+/*    color: white;*/
+/*}*/
+
+.head-nav {
     top: 10px;
     right: 10px;
     Display: inline-block;
     color: white;
-}
-
-.main-nav {
     /*Navigation unordered list should be floated to the right*/
     float: right;
     /*Get rid of bullet points*/
@@ -115,7 +120,7 @@ nav ul li {
 }
 
 /*Select all li inside ul list in main-nav class*/
-.main-nav li {
+.head-nav li {
     /*change display style to inline block*/
     display: inline-block;
     margin-left: 40px;
@@ -123,8 +128,8 @@ nav ul li {
 
 /*Select all anchor elements with li as parent*/
 /*Adding link and visited pseudo code will give effects when hovering over menu*/
-.main-nav li a:link,
-.main-nav li a:visited
+.head-nav li a:link,
+.head-nav li a:visited
 {
     padding: 8px 0;
     /*text to white*/
@@ -141,11 +146,50 @@ nav ul li {
     transition: border-bottom 0.2s;
 }
 
-.main-nav li a:hover,
-.main-nav li a:active {
+.head-nav li a:hover,
+.head-nav li a:active,
+.head-nav li button:hover,
+.head-nav li button:active {
     /*This will add the solid border when an element is hovered over*/
     border-bottom: 2px solid  #0099cc;
 }
+
+.loginlnk {
+    background:none;
+    color:inherit;
+    border:none;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+
+}
+
+.dropdown-menu.p-4.show {
+    width: 200px;
+}
+
+/*Sticky nav*/
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 58px;
+    background-color: rgba(255, 255, 255, 0.30);
+    z-index: 9999;
+}
+
+.sticky .head-nav {
+    margin: 25px 0 0 0;
+}
+
+.sticky .head-nav li a:link,
+.sticky .head-nav li a:visited,
+.head-nav li button:link,
+.head-nav li button:visited {
+     padding: 8px 0;
+     color: #555;
+ }
+
 /*---------------------------------------------*/
 /*MAIN*/
 /*---------------------------------------------*/
@@ -173,33 +217,50 @@ main > section:nth-of-type(odd) {
 #form {
     padding-top: 10px;
 }
+.signup-form label,
+.signup-form input {
+    display: inline-block;
+    margin-top: 1rem;
+    width: 100%;
+    vertical-align: middle;
 
-.form--inputs label {
-    padding-top: 8px;
 }
 
-.form--inputs input {
-    width: 220px;
-    line-height: 30px;
+.signup-form label {
+    width: 30%;
+}
+.signup-form input {
+    padding: 0.4rem;
+    width: 68%;
     border-radius: 5px;
-    float: right;
 }
+/*.form--inputs label {*/
+/*    display: block;*/
+/*    height: 30px;*/
+/*}*/
 
-.form--inputs li {
-    padding: 15px;
-}
+/*.form--inputs input {*/
+/*    width: 220px;*/
+/*    line-height: 30px;*/
+/*    border-radius: 5px;*/
+/*    float: right;*/
+/*}*/
+
+/*.form--inputs li {*/
+/*    padding: 15px;*/
+/*    clear: both;*/
+/*}*/
 
 input[type="submit"] {
-    margin-top: 20px;
+    margin: 8% 0 0 31%;
     padding: 2rem 5rem;
     background-color: #ffffff;
-    border:1px solid #000000;
-    color:#000000;
-    font-size:1.6rem;
+    border: 1px solid #000000;
+    color: #000000;
+    font-size: 1.6rem;
     border-radius: .5rem;
     cursor: pointer;
     text-transform: uppercase;
-
 }
 
 /*---------------------------------------------*/
@@ -215,3 +276,43 @@ footer{}
 
 /*a:link a:visited { color: #999999; }*/
 /*a:hover a:active { color: #000000; }*/
+
+/*---------------------------------------------*/
+/*CONTACT*/
+/*---------------------------------------------*/
+
+.back-to-top {
+    background-color: #50A1CB; /* button color */
+    color: white; /* text/arrow color */
+    display: none;
+    z-index: 999;
+    /* float in bottom right corner */
+    /* 20 pixels from edge */
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    /* size of button is 50 pixels*/
+    width: 50px;
+    height: 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /* round button */
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+a.back-to-top {
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.6;
+    padding-left: 2px;
+    padding-top: 4px;
+}
+
+#arrow {
+    padding-top: 3px;
+}
+
