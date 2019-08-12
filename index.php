@@ -116,7 +116,10 @@
             </section>
 <!--            Contact Section - Sumit-->
             <section id="ContactUs">
-                <h3>Get In Touch</h3>
+              <?php
+                include("contact-us.php");
+              ?>
+                <!-- <h3>Get In Touch</h3>
                 <div class="contact pgrow">
                     <div class="col span-1-of-3">
                         <i class="fas fa-envelope-open-text fa-3x"></i><br><br>
@@ -134,7 +137,7 @@
                         <p><B>ADDRESS:</B></p><br>Travel Expert<p>1155 8th Ave SW</p> Calgary, AB <p>T2P 1N3</p><br>
                         Travel Expert<p>110 Main Street</p> Okotoks, AB <p>T7R 3J5</p>
                     </div>
-                </div>
+                </div> -->
             </section>
             <a href="#" class="back-to-top"><i id="arrow" class="fas fa-arrow-alt-circle-up fa-3x"></i></a>
         </main>
