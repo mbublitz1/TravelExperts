@@ -71,7 +71,8 @@
             </div>
         </header>
 
-        <main class="js--section-features">
+<!--        <main class="js--section-features">-->
+        <main>
             <section id="Plans">
                 <h3>Travel Plans</h3>
                 <div id="plans" class="carousel slide" data-ride="carousel">
@@ -80,6 +81,7 @@
                         <li data-target="#plans" data-slide-to="0" class="active"></li>
                         <li data-target="#plans" data-slide-to="1"></li>
                         <li data-target="#plans" data-slide-to="2"></li>
+                        <li data-target="#plans" data-slide-to="3"></li>
                     </ul>
 
                     <!-- Wrapper for slides -->
@@ -92,7 +94,7 @@
 
                         <div class="carousel-item">
                             <img src="img/2Polynesian_Paradise/1.jpeg" alt="Chicago">
-                            <img src="img/2Polynesian_Paradise/2.jpg" alt="Chicago">
+                            <img src="img/2Polynesian_Paradise/a(1).jpg" alt="Chicago">
                             <img src="img/2Polynesian_Paradise/3.jpg" alt="Chicago">
                         </div>
 
