@@ -252,6 +252,22 @@ main > section:nth-of-type(odd) {
     width: 68%;
     border-radius: 5px;
 }
+/*.form--inputs label {*/
+/*    display: block;*/
+/*    height: 30px;*/
+/*}*/
+
+/*.form--inputs input {*/
+/*    width: 220px;*/
+/*    line-height: 30px;*/
+/*    border-radius: 5px;*/
+/*    float: right;*/
+/*}*/
+
+/*.form--inputs li {*/
+/*    padding: 15px;*/
+/*    clear: both;*/
+/*}*/
 
 input[type="submit"] {
     margin: 8% 0 0 31%;
