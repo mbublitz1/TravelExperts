@@ -79,36 +79,42 @@
                     <!-- Indicators -->
                     <ul class="carousel-indicators">
                         <li data-target="#plans" data-slide-to="0" class="active"></li>
-                        <li data-target="#plans" data-slide-to="1"></li>
-                        <li data-target="#plans" data-slide-to="2"></li>
-                        <li data-target="#plans" data-slide-to="3"></li>
+<!--                        <li data-target="#plans" data-slide-to="1"></li>-->
+<!--                        <li data-target="#plans" data-slide-to="2"></li>-->
+<!--                        <li data-target="#plans" data-slide-to="3"></li>-->
                     </ul>
 
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="img/1Caribbean_New_Year/1.jpg" alt="Los Angeles">
-                            <img src="img/1Caribbean_New_Year/a(2).jpg" alt="Los Angeles">
-                            <img src="img/1Caribbean_New_Year/2.jpg" alt="Los Angeles">
+                            <div>
+                                <img src="img/1Caribbean_New_Year/1.jpg" alt="Los Angeles">
+                            </div>
+                            <div>
+                                <img src="img/1Caribbean_New_Year/a(2).jpg" alt="Los Angeles">
+                            </div>
+                            <div>
+                                <img src="img/1Caribbean_New_Year/2.jpg" alt="Los Angeles">
+                            </div>
                         </div>
 
-                        <div class="carousel-item">
-                            <img src="img/2Polynesian_Paradise/1.jpeg" alt="Chicago">
-                            <img src="img/2Polynesian_Paradise/a(1).jpg" alt="Chicago">
-                            <img src="img/2Polynesian_Paradise/3.jpg" alt="Chicago">
-                        </div>
-
-                        <div class="carousel-item">
-                            <img src="img/3Asian_Expedition/img1.jpg" alt="Chicago">
-                            <img src="img/3Asian_Expedition/Thailand.jpg" alt="Chicago">
-                            <img src="img/3Asian_Expedition/Boracay-Philippines-1024x768.jpg" alt="Chicago">
-                        </div>
-
-                        <div class="carousel-item">
-                            <img src="img/4European_Vacation/london/london.jpg" alt="">
-                            <img src="img/4European_Vacation/paris/paris.jpg" alt="">
-                            <img src="img/4European_Vacation/rome/rome-italy.jpg" alt="">
-                        </div>
+<!--                        <div class="carousel-item">-->
+<!--                            <img src="img/2Polynesian_Paradise/1.jpeg" alt="Chicago">-->
+<!--                            <img src="img/2Polynesian_Paradise/a(1).jpg" alt="Chicago">-->
+<!--                            <img src="img/2Polynesian_Paradise/3.jpg" alt="Chicago">-->
+<!--                        </div>-->
+<!---->
+<!--                        <div class="carousel-item">-->
+<!--                            <img src="img/3Asian_Expedition/img1.jpg" alt="Chicago">-->
+<!--                            <img src="img/3Asian_Expedition/Thailand.jpg" alt="Chicago">-->
+<!--                            <img src="img/3Asian_Expedition/Boracay-Philippines-1024x768.jpg" alt="Chicago">-->
+<!--                        </div>-->
+<!---->
+<!--                        <div class="carousel-item">-->
+<!--                            <img src="img/4European_Vacation/london/london.jpg" alt="">-->
+<!--                            <img src="img/4European_Vacation/paris/paris.jpg" alt="">-->
+<!--                            <img src="img/4European_Vacation/rome/rome-italy.jpg" alt="">-->
+<!--                        </div>-->
                     </div>
 
                     <!-- Left and right controls -->

@@ -194,7 +194,11 @@ header h3 {
 /*PLAN SECTION*/
 /*---------------------------------------------*/
 
-.carousel-inner img {
+.carousel-inner {
+    margin-left: 12%;
+}
+
+.carousel-item img {
     padding: 2%;
     width: 25%;
     height: 25%;
@@ -212,9 +216,9 @@ header h3 {
 /*MAIN*/
 /*---------------------------------------------*/
 
-main > section {
-    height: 500px;
-}
+/*main > section {*/
+/*    height: 500px;*/
+/*}*/
 
 main > section:nth-of-type(odd) {
     background: white;
@@ -284,6 +288,7 @@ input[type="submit"] {
 /*---------------------------------------------*/
 /*CONTACT*/
 /*---------------------------------------------*/
+
 
 .contact {
 
