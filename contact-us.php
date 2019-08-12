@@ -3,7 +3,7 @@
 <h3>Get In Touch</h3>
 <div class="contact pgrow">
     <div class="col span-1-of-3">
-        <i class="fas fa-envelope-open-text fa-3x"></i><br><br>
+        <em class="fas fa-envelope-open-text fa-3x"></em><br><br>
         <p><strong>EMAIL:</strong></p>
         <br>
 
@@ -16,14 +16,16 @@
           while ($row = $res->fetch_assoc()) {
             echo $row['AgncyCity'];
             echo "<br><br>";
-            echo $row['AgtFirstName'] . $row['AgtLastName'] . "<br>" . $row['AgtEmail'];
+            echo $row['AgtFirstName'] . " " . $row['AgtLastName'];
+            echo "<br>";
+            echo "<a href=\"mailto:" . $row['AgtEmail'] . "\">" . $row['AgtEmail'] . "</a>";
             echo "<br><br><br>";
           }
         ?>
 
     </div>
     <div class="col span-1-of-3">
-        <i class="fas fa-phone-square-alt fa-3x"></i><br><br>
+        <em class="fas fa-phone-square-alt fa-3x"></em><br><br>
         <p><strong>PHONE:</strong></p><br>
 
         <?php
@@ -45,7 +47,7 @@
 
     </div>
     <div class="col span-1-of-3">
-        <i class="fas fa-map-marker-alt fa-3x"></i><br><br>
+        <em class="fas fa-map-marker-alt fa-3x"></em><br><br>
         <p><strong>ADDRESS:</strong></p><br>
         <?php
         $query = "SELECT AgncyAddress, AgncyCity, AgncyProv, AgncyCountry, AgncyPostal  FROM agencies
