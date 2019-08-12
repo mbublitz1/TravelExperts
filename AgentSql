@@ -1,0 +1,4 @@
+select agtFirstName, agtLastName, agtEmail
+from agents
+inner join agencies on agencies.AgencyId = agents.AgencyId
+where (agencies.AgncyCity = 'Calgary' or agencies.AgncyCity = 'Okotoks')
