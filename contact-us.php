@@ -11,20 +11,20 @@
         <p>Okatoks Branch</p>Senior Agent<p>jane.merrill@travelexperts.com</p> -->
 
         <?php
-          $queryAgt = "SELECT * FROM agents WHERE AgtPosition = 'Senior Agent'";
-          $queryAgncy = "SELECT * FROM agencies";
-          $resAgt = $conn->query($queryAgt);
-          $resAncy = $conn->query($queryAgncy);
+          $query = "SELECT * FROM agents
+          INNER JOIN agencies ON agencies.AgencyId = agents.AgencyId";
+          $res = $conn->query($query);
 
-          while ($row1 = $resAncy->fetch_assoc()) {
-            echo $row1['AgncyCity'];
+          while ($row = $res->fetch_assoc()) {
+            echo $row['AgncyCity'];
             echo "<br><br>";
-            $row2 = $resAgt->fetch_assoc();
-            echo $row2['AgtFirstName'] . " " . $row2['AgtLastName'];
-            echo "<br>";
-            echo $row2['AgtEmail'];
-            echo "<br><br><br>";
-
+            while ($row = $res->fetch_assoc()) {
+              echo $row['AgtFirstName'] . " " . $row['AgtLastName'];
+              echo "<br>";
+              echo $row['AgtEmail'];
+              echo $row['AgencyId'];
+              echo "<br><br><br>";
+            }
           }
 
           // while ($row = $resAgt->fetch_assoc()) {

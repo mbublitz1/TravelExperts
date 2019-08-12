@@ -1,0 +1,6 @@
+http://qnimate.com/creating-a-slider-using-html-and-css-only/
+
+
+https://coderwall.com/p/vsdrug/how-to-create-an-image-slider-with-javascript
+
+http://responsiveslides.com/    (https://github.com/viljamis/ResponsiveSlides.js)
