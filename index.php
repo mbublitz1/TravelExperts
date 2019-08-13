@@ -192,7 +192,6 @@
 
         <footer>
         </footer>
-<!--        <script src="vendors/js/jquery-1.12.0.min.js"></script>-->
         <script src="vendor/js/jquery-3.4.1.min.js"></script>
         <script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js"></script>
         <script src="vendor/js/bootstrap.min.js"></script>

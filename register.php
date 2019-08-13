@@ -1,7 +1,7 @@
 <form action="php-bouncer.php" method="post">
     <div id="form" class="pgrow signup-form">
         <div class="gridcol span-1-of-3">
-            <img id="registerbtn" src="img/register-button-png-photos.png" alt="Register here">
+            <img id="registerbtn" src="img/register-now-button-dark-blue-hi.png" alt="Register here">
 
         </div>
         <div class="gridcol span-1-of-3 signup-page">
