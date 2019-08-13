@@ -1,4 +1,7 @@
 $(document).ready(function() {
+    $('.heading-text-box h3').addClass('added-class');
+    $('#Register h3').addClass('added-class');
+
     var offset = 220;
     var duration = 800;
     $(window).scroll(function() {
@@ -22,6 +25,7 @@ $(document).ready(function() {
             scrollTop: target.offset().top - 80
         }, duration)
     });
+
 
     /* For the sticky navigation */
     $('.js--section-features').waypoint(function(direction) {

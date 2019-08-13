@@ -20,7 +20,6 @@
         <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
         <script src="https://kit.fontawesome.com/7a976362d3.js"></script>
-
     </head>
 
     <body>
@@ -105,7 +104,7 @@
                             <div class="row">
                                 <div class="col">
                                     <img src="img/2Polynesian_Paradise/1.jpeg" alt="Chicago">
-                                    <p>This is a test</p>
+                                    <p>This is another test</p>
                                 </div>
                                 <div class="col">
                                     <img src="img/2Polynesian_Paradise/a(1).jpg" alt="Chicago">
@@ -153,7 +152,6 @@
                             <span class="carousel-control-next-icon"></span>
                         </a>
                 </div>
-
 
 <!--            Registration Section-->
             </section>
