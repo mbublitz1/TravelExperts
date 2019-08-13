@@ -1,27 +1,7 @@
 <form action="php-bouncer.php" method="post">
     <div id="form" class="pgrow signup-form">
         <div class="gridcol span-1-of-3">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.</p>
-<!--            <p>Please register with our system in order to start booking trips.</p>-->
-<!---->
-<!--            --><?php
-//              $sql = "SELECT AgncyCity FROM agencies";
-//              $result = $conn->query($sql);
-//
-//              echo "<select name='AgncyCity'>";
-//              while($row = $result->fetch_assoc()) {
-//                  echo "<option value=$row[AgncyCity]>
-//                    $row[AgncyCity]
-//                  </option>";
-//                }
-//              echo "</select>";
-//            ?>
+            <img id="registerbtn" src="img/register-button-png-photos.png" alt="Register here">
 
         </div>
         <div class="gridcol span-1-of-3 signup-page">

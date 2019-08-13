@@ -205,6 +205,10 @@ header h3 {
     text-align: center;
 }
 
+.carousel-item h4 {
+    padding: 1%;
+}
+
 .carousel-item img {
     padding: 1%;
     width: 80%;
@@ -235,6 +239,9 @@ main > section:nth-of-type(odd) {
 /*---------------------------------------------*/
 /*REGISTRATION*/
 /*---------------------------------------------*/
+.registration--main_form {
+    padding-bottom: 2%;
+}
 
 .registration--main_form h3,
 .registration--main_form label,
@@ -263,22 +270,12 @@ main > section:nth-of-type(odd) {
     width: 68%;
     border-radius: 5px;
 }
-/*.form--inputs label {*/
-/*    display: block;*/
-/*    height: 30px;*/
-/*}*/
 
-/*.form--inputs input {*/
-/*    width: 220px;*/
-/*    line-height: 30px;*/
-/*    border-radius: 5px;*/
-/*    float: right;*/
-/*}*/
-
-/*.form--inputs li {*/
-/*    padding: 15px;*/
-/*    clear: both;*/
-/*}*/
+#registerbtn {
+    padding-top: 22%;
+    height: 75%;
+    width: 75%;
+}
 
 input[type="submit"] {
     margin: 8% 0 0 31%;
@@ -295,7 +292,6 @@ input[type="submit"] {
 /*---------------------------------------------*/
 /*CONTACT*/
 /*---------------------------------------------*/
-
 
 .contact {
 
