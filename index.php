@@ -201,7 +201,7 @@
         <script src="vendor/js/jquery-validation-1.19.1/dist/jquery.validate.min.js"></script>
         <script src="js/main.js"></script>
           <script>
-              $("#form").validate();
+              $("#regForm").validate();
           </script>
         <?php
           $conn->close();

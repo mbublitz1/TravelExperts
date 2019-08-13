@@ -1,4 +1,4 @@
-<form action="php-bouncer.php" method="post">
+<form id="regForm" action="php-bouncer.php" method="post">
     <div id="form" class="pgrow signup-form">
         <div class="gridcol span-1-of-3">
             <img id="registerbtn" src="img/Register-Now.png" alt="Register here">
@@ -26,7 +26,7 @@
             <label for="CustBusPhone">Business No:</label>
             <input type="text" name="CustBusPhone">
             <label for="CustEmail">Email:</label>
-            <input type="text" name="CustEmail" required>
+            <input type="email" name="CustEmail" required>
             <input type="Submit" name="Submit" value="Submit">
         </div>
     </div>
