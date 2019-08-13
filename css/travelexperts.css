@@ -127,7 +127,7 @@ header h3 {
     /*Get rid of bullet points*/
     list-style: none;
     /*Add space between top of page an menu*/
-    margin-top: 40px;
+    margin-top: 52px;
 }
 
 /*Select all li inside ul list in main-nav class*/
