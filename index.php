@@ -29,7 +29,7 @@
         <header>
             <nav>
                 <div class="pgrow" >
-<!--                    <img class="logo" src="./img/TravelExperts.png" alt="Travel experts logo">-->
+                    <img class="logo" src="./img/travelexpertnew.png"Travel experts logo">
                     <ul class="head-nav">
                         <li><a href="#Plans">Travel Plans</a></li>
                         <li><a href="#Register">Register</a></li>
