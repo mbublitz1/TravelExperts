@@ -39,6 +39,7 @@ h3 {
     font-size: 5rem;
     padding-top: 4rem;
     text-align: center;
+    font-family: 'Lato', 'Arial', sans-serif;
 }
 
 h2:after, h3:after {
@@ -264,6 +265,7 @@ main > section:nth-of-type(odd) {
 
 .signup-form label {
     width: 30%;
+    font-weight: bold;
 }
 .signup-form input {
     padding: 0.4rem;
@@ -272,10 +274,10 @@ main > section:nth-of-type(odd) {
 }
 
 #registerbtn {
-    padding-top: 22%;
-    margin-left: -36px;
-    height: 75%;
-    width: 75%;
+    padding-top: 6%;
+    margin-left: -100px;
+    height: 90%;
+    width: 90%;
 }
 
 input[type="submit"] {

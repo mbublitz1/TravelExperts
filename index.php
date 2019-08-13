@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="css/grid.css">
         <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
         <script src="https://kit.fontawesome.com/7a976362d3.js"></script>
 
     </head>
@@ -197,7 +198,11 @@
         <script src="vendor/js/bootstrap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="vendor/js/node_modules/jquery-waypoints/waypoints.min.js"></script>
+        <script src="vendor/js/jquery-validation-1.19.1/dist/jquery.validate.min.js"></script>
         <script src="js/main.js"></script>
+          <script>
+              $("#form").validate();
+          </script>
         <?php
           $conn->close();
         ?>
