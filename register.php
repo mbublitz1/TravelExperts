@@ -1,6 +1,6 @@
 <form action="php-bouncer.php" method="post">
     <div id="form" class="pgrow signup-form">
-        <div class="col span-1-of-3">
+        <div class="gridcol span-1-of-3">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
           ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -24,7 +24,7 @@
 //            ?>
 
         </div>
-        <div class="col span-1-of-3 signup-page">
+        <div class="gridcol span-1-of-3 signup-page">
             <label for="CustFirstName">First Name:</label>
             <input type="text" name="CustFirstName">
             <label for="CustLastName">Last Name:</label>
@@ -40,7 +40,7 @@
             <label for="CustCountry">Country:</label>
             <input type="text" name="CustCountry">
         </div>
-        <div class="col span-1-of-3">
+        <div class="gridcol span-1-of-3">
             <label for="CustHomePhone">Home No:</label>
             <input type="text" name="CustHomePhone">
             <label for="CustBusPhone">Business No:</label>

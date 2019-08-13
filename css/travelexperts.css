@@ -200,14 +200,15 @@ header h3 {
 /*PLAN SECTION*/
 /*---------------------------------------------*/
 
-.carousel-inner {
-    margin-left: 12%;
+.carousel-item {
+    padding-top: 2%;
+    text-align: center;
 }
 
 .carousel-item img {
-    padding: 2%;
-    width: 25%;
-    height: 25%;
+    padding: 1%;
+    width: 80%;
+    height: 80%;
 }
 
 .carousel-control-prev-icon {

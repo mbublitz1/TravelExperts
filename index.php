@@ -76,55 +76,84 @@
             <section id="Plans">
                 <h3>Travel Plans</h3>
                 <div id="plans" class="carousel slide" data-ride="carousel">
-                    <!-- Indicators -->
                     <ul class="carousel-indicators">
                         <li data-target="#plans" data-slide-to="0" class="active"></li>
-<!--                        <li data-target="#plans" data-slide-to="1"></li>-->
-<!--                        <li data-target="#plans" data-slide-to="2"></li>-->
-<!--                        <li data-target="#plans" data-slide-to="3"></li>-->
+                        <li data-target="#plans" data-slide-to="1"></li>
+                        <li data-target="#plans" data-slide-to="2"></li>
+                        <li data-target="#plans" data-slide-to="3"></li>
                     </ul>
-
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <div>
-                                <img src="img/1Caribbean_New_Year/1.jpg" alt="Los Angeles">
-                            </div>
-                            <div>
-                                <img src="img/1Caribbean_New_Year/a(2).jpg" alt="Los Angeles">
-                            </div>
-                            <div>
-                                <img src="img/1Caribbean_New_Year/2.jpg" alt="Los Angeles">
+                            <h4>Caribbean New Year</h4>
+                            <div class="row">
+                                <div class="col">
+                                    <img src="img/1Caribbean_New_Year/1.jpg" alt="Los Angeles">
+                                    <p>This is a test</p>
+                                </div>
+                                <div class="col">
+                                    <img src="img/1Caribbean_New_Year/a(2).jpg" alt="Los Angeles">
+                                </div>
+                                <div class="col">
+                                    <img src="img/1Caribbean_New_Year/2.jpg" alt="Los Angeles">
+                                </div>
                             </div>
                         </div>
-
-<!--                        <div class="carousel-item">-->
-<!--                            <img src="img/2Polynesian_Paradise/1.jpeg" alt="Chicago">-->
-<!--                            <img src="img/2Polynesian_Paradise/a(1).jpg" alt="Chicago">-->
-<!--                            <img src="img/2Polynesian_Paradise/3.jpg" alt="Chicago">-->
-<!--                        </div>-->
-<!---->
-<!--                        <div class="carousel-item">-->
-<!--                            <img src="img/3Asian_Expedition/img1.jpg" alt="Chicago">-->
-<!--                            <img src="img/3Asian_Expedition/Thailand.jpg" alt="Chicago">-->
-<!--                            <img src="img/3Asian_Expedition/Boracay-Philippines-1024x768.jpg" alt="Chicago">-->
-<!--                        </div>-->
-<!---->
-<!--                        <div class="carousel-item">-->
-<!--                            <img src="img/4European_Vacation/london/london.jpg" alt="">-->
-<!--                            <img src="img/4European_Vacation/paris/paris.jpg" alt="">-->
-<!--                            <img src="img/4European_Vacation/rome/rome-italy.jpg" alt="">-->
-<!--                        </div>-->
-                    </div>
-
-                    <!-- Left and right controls -->
-                    <a class="carousel-control-prev" href="#plans" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </a>
-                    <a class="carousel-control-next" href="#plans" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </a>
+                        <div class="carousel-item">
+                            <h4>Polynesian Paradise</h4>
+                            <div class="row">
+                                <div class="col">
+                                    <img src="img/2Polynesian_Paradise/1.jpeg" alt="Chicago">
+                                    <p>This is a test</p>
+                                </div>
+                                <div class="col">
+                                    <img src="img/2Polynesian_Paradise/a(1).jpg" alt="Chicago">
+                                </div>
+                                <div class="col">
+                                    <img src="img/2Polynesian_Paradise/3.jpg" alt="Chicago">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <h4>Asian Expedition</h4>
+                            <div class="row">
+                                <div class="col">
+                                    <img src="img/3Asian_Expedition/img1.jpg" alt="Chicago">
+                                    <p>This is a test</p>
+                                </div>
+                                <div class="col">
+                                    <img src="img/3Asian_Expedition/Thailand.jpg" alt="Chicago">
+                                </div>
+                                <div class="col">
+                                    <img src="img/3Asian_Expedition/Boracay-Philippines-1024x768.jpg" alt="Chicago">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <h4>European Vacation</h4>
+                            <div class="row">
+                                <div class="col">
+                                    <img src="img/4European_Vacation/london/london.jpg" alt="">
+                                    <p>This is a test</p>
+                                </div>
+                                <div class="col">
+                                    <img src="img/4European_Vacation/paris/paris.jpg" alt="">
+                                </div>
+                                <div class="col">
+                                    <img src="img/4European_Vacation/rome/rome-italy.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+<!--                        Left and right controls-->
+                        <a class="carousel-control-prev" href="#plans" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#plans" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
                 </div>
+
+
 <!--            Registration Section-->
             </section>
             <section id="Register" class="registration--main_form">

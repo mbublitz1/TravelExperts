@@ -3,7 +3,7 @@
 <h3>Get In Touch</h3>
 <h4>Calgary</h4>
 <div class="contact pgrow">
-    <div class="col span-1-of-3">
+    <div class="gridcol span-1-of-3">
         <em class="fas fa-phone-square-alt fa-3x"></em><br><br>
         <p><strong>PHONE:</strong></p><br>
 
@@ -24,7 +24,7 @@
           ?>
 
     </div>
-    <div class="col span-1-of-3">
+    <div class="gridcol span-1-of-3">
         <em class="fas fa-envelope-open-text fa-3x"></em><br><br>
         <p><strong>EMAIL:</strong></p>
         <br>
@@ -48,7 +48,7 @@
 
     </div>
 
-    <div class="col span-1-of-3">
+    <div class="gridcol span-1-of-3">
         <em class="fas fa-map-marker-alt fa-3x"></em><br><br>
         <p><strong>ADDRESS:</strong></p><br>
         <?php
@@ -73,7 +73,7 @@
 
 <h4>Okotoks</h4>
 <div class="contact pgrow">
-    <div class="col span-1-of-3">
+    <div class="gridcol span-1-of-3">
         <em class="fas fa-phone-square-alt fa-3x"></em><br><br>
         <p><strong>PHONE:</strong></p><br>
 
@@ -94,7 +94,7 @@
           ?>
 
     </div>
-    <div class="col span-1-of-3">
+    <div class="gridcol span-1-of-3">
         <em class="fas fa-envelope-open-text fa-3x"></em><br><br>
         <p><strong>EMAIL:</strong></p>
         <br>
@@ -118,7 +118,7 @@
 
     </div>
 
-    <div class="col span-1-of-3">
+    <div class="gridcol span-1-of-3">
         <em class="fas fa-map-marker-alt fa-3x"></em><br><br>
         <p><strong>ADDRESS:</strong></p><br>
         <?php
