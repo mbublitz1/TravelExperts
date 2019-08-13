@@ -273,6 +273,7 @@ main > section:nth-of-type(odd) {
 
 #registerbtn {
     padding-top: 22%;
+    margin-left: -36px;
     height: 75%;
     width: 75%;
 }
