@@ -296,7 +296,7 @@
 <!--            Contact Section - Sumit-->
             <section id="ContactUs">
 
-              <button type="button" onclick="plsReg()">Purchace</button>
+              <button type="button" onclick="plsReg()">Purchase</button>
 
               <?php
                 include("contact-us.php");
