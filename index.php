@@ -90,43 +90,45 @@
                                 <div class="col">
                                     <img src="img/1Caribbean_New_Year/1.jpg" alt="Los Angeles">
                                     <?php
-                                    $query = "SELECT Packageid, PkgName, PkgDesc FROM packages
+                                    $query = "SELECT Packageid, PkgName, PkgDesc, PkgBasePrice FROM packages
                                     WHERE Packageid = '12'
                                     ORDER BY Packageid";
                                     $res = $conn->query($query);
-
-                                    while ($row = $res->fetch_assoc()){
-                                      echo "<p class='packText'><span class='boxs'><strong>".$row['PkgName']."</strong></span></p>";
-                                      echo "<p class='packText2'>".$row['PkgDesc']."</p>";
-                                    }
+                                    $row = $res->fetch_assoc();
+                                    echo "<div class='carousel-package--div'>";
+                                    echo "<p class='packText'>".$row['PkgName']."</p>";
+                                    echo "<p class='packText2'>".$row['PkgDesc']."</p>";
+                                    echo "<p class='packCost'>".$row['PkgBasePrice']."</p>";
+                                    echo "</div>";
                                      ?>
                                 </div>
                                 <div class="col">
                                     <img src="img/1Caribbean_New_Year/a(2).jpg" alt="Los Angeles">
                                     <?php
-                                    $query = "SELECT Packageid, PkgName, PkgDesc FROM packages
+                                    $query = "SELECT Packageid, PkgName, PkgDesc, PkgBasePrice FROM packages
                                     WHERE Packageid = '1'
                                     ORDER BY Packageid";
                                     $res = $conn->query($query);
-
-                                    while ($row = $res->fetch_assoc()){
-                                      echo "<p class='packText'><span class='boxs'><strong>".$row['PkgName']."</strong></span></p>";
-                                      echo "<p class='packText2'>".$row['PkgDesc']."</p>";
-                                    }
+                                    $row = $res->fetch_assoc();
+                                    echo "<div class='carousel-package--div'>";
+                                    echo "<p class='packText'>".$row['PkgName']."</p>";
+                                    echo "<p class='packText2'>".$row['PkgDesc']."</p>";
+                                    echo "<p class='packCost'>".$row['PkgBasePrice']."</p>";
+                                    echo "</div>";
                                      ?>
                                 </div>
                                 <div class="col">
                                     <img src="img/1Caribbean_New_Year/2.jpg" alt="Los Angeles">
                                     <?php
-                                    $query = "SELECT Packageid, PkgName, PkgDesc FROM packages
+                                    $query = "SELECT Packageid, PkgName, PkgDesc, PkgBasePrice FROM packages
                                     WHERE Packageid = '13'
                                     ORDER BY Packageid";
                                     $res = $conn->query($query);
-
-                                    while ($row = $res->fetch_assoc()){
-                                      echo "<p class='packText'><span class='boxs'><strong>".$row['PkgName']."</strong></span></p>";
-                                      echo "<p class='packText2'>".$row['PkgDesc']."</p>";
-                                    }
+                                    echo "<div class='carousel-package--div'>";
+                                    echo "<p class='packText'>".$row['PkgName']."</p>";
+                                    echo "<p class='packText2'>".$row['PkgDesc']."</p>";
+                                    echo "<p class='packCost'>".$row['PkgBasePrice']."</p>";
+                                    echo "</div>";
                                      ?>
                                 </div>
                             </div>
@@ -137,43 +139,44 @@
                                 <div class="col">
                                     <img src="img/2Polynesian_Paradise/1.jpeg" alt="Chicago">
                                     <?php
-                                    $query = "SELECT Packageid, PkgName, PkgDesc FROM packages
+                                    $query = "SELECT Packageid, PkgName, PkgDesc, PkgBasePrice FROM packages
                                     WHERE Packageid = '10'
                                     ORDER BY Packageid";
                                     $res = $conn->query($query);
-
-                                    while ($row = $res->fetch_assoc()){
-                                      echo "<p class='packText'><span class='boxs'><strong>".$row['PkgName']."</strong></span></p>";
-                                      echo "<p class='packText2'>".$row['PkgDesc']."</p>";
-                                    }
+                                    echo "<div class='carousel-package--div'>";
+                                    echo "<p class='packText'>".$row['PkgName']."</p>";
+                                    echo "<p class='packText2'>".$row['PkgDesc']."</p>";
+                                    echo "<p class='packCost'>".$row['PkgBasePrice']."</p>";
+                                    echo "</div>";
                                      ?>
                                 </div>
                                 <div class="col">
                                     <img src="img/2Polynesian_Paradise/a(1).jpg" alt="Chicago">
                                     <?php
-                                    $query = "SELECT Packageid, PkgName, PkgDesc FROM packages
+                                    $query = "SELECT Packageid, PkgName, PkgDesc, PkgBasePrice FROM packages
                                     WHERE Packageid = '2'
                                     ORDER BY Packageid";
                                     $res = $conn->query($query);
-
-                                    while ($row = $res->fetch_assoc()){
-                                      echo "<p class='packText'><span class='boxs'><strong>".$row['PkgName']."</strong></span></p>";
-                                      echo "<p class='packText2'>".$row['PkgDesc']."</p>";
-                                    }
+                                    echo "<div class='carousel-package--div'>";
+                                    echo "<p class='packText'>".$row['PkgName']."</p>";
+                                    echo "<p class='packText2'>".$row['PkgDesc']."</p>";
+                                    echo "<p class='packCost'>".$row['PkgBasePrice']."</p>";
+                                    echo "</div>";
                                      ?>
                                 </div>
                                 <div class="col">
                                     <img src="img/2Polynesian_Paradise/3.jpg" alt="Chicago">
                                     <?php
-                                    $query = "SELECT Packageid, PkgName, PkgDesc FROM packages
+                                    $query = "SELECT Packageid, PkgName, PkgDesc, PkgBasePrice FROM packages
                                     WHERE Packageid = '11'
                                     ORDER BY Packageid";
                                     $res = $conn->query($query);
-
-                                    while ($row = $res->fetch_assoc()){
-                                      echo "<p class='packText'><span class='boxs'><strong>".$row['PkgName']."</strong></span></p>";
-                                      echo "<p class='packText2'>".$row['PkgDesc']."</p>";
-                                    }
+                                    $row = $res->fetch_assoc();
+                                    echo "<div class='carousel-package--div'>";
+                                    echo "<p class='packText'>".$row['PkgName']."</p>";
+                                    echo "<p class='packText2'>".$row['PkgDesc']."</p>";
+                                    echo "<p class='packCost'>".$row['PkgBasePrice']."</p>";
+                                    echo "</div>";
                                      ?>
                                 </div>
                             </div>
@@ -184,44 +187,44 @@
                                 <div class="col">
                                     <img src="img/3Asian_Expedition/img1.jpg" alt="Chicago">
                                     <?php
-                                    $query = "SELECT Packageid, PkgName, PkgDesc FROM packages
+                                    $query = "SELECT Packageid, PkgName, PkgDesc, PkgBasePrice FROM packages
                                     WHERE Packageid = '5'
                                     ORDER BY Packageid";
                                     $res = $conn->query($query);
-
-                                    while ($row = $res->fetch_assoc()){
-                                      echo "<p class='packText'><span class='boxs'><strong>".$row['PkgName']."</strong></span></p>";
-                                      echo "<p class='packText2'>".$row['PkgDesc']."</p>";
-                                    }
+                                    echo "<div class='carousel-package--div'>";
+                                    echo "<p class='packText'>".$row['PkgName']."</p>";
+                                    echo "<p class='packText2'>".$row['PkgDesc']."</p>";
+                                    echo "<p class='packCost'>".$row['PkgBasePrice']."</p>";
+                                    echo "</div>";
                                      ?>
                                     <p>This is a test</p>
                                 </div>
                                 <div class="col">
                                     <img src="img/3Asian_Expedition/Thailand.jpg" alt="Chicago">
                                     <?php
-                                    $query = "SELECT Packageid, PkgName, PkgDesc FROM packages
+                                    $query = "SELECT Packageid, PkgName, PkgDesc, PkgBasePrice FROM packages
                                     WHERE Packageid = '3'
                                     ORDER BY Packageid";
                                     $res = $conn->query($query);
-
-                                    while ($row = $res->fetch_assoc()){
-                                      echo "<p class='packText'><span class='boxs'><strong>".$row['PkgName']."</strong></span></p>";
-                                      echo "<p class='packText2'>".$row['PkgDesc']."</p>";
-                                    }
+                                    echo "<div class='carousel-package--div'>";
+                                    echo "<p class='packText'>".$row['PkgName']."</p>";
+                                    echo "<p class='packText2'>".$row['PkgDesc']."</p>";
+                                    echo "<p class='packCost'>".$row['PkgBasePrice']."</p>";
+                                    echo "</div>";
                                      ?>
                                 </div>
                                 <div class="col">
                                     <img src="img/3Asian_Expedition/Boracay-Philippines-1024x768.jpg" alt="Chicago">
                                     <?php
-                                    $query = "SELECT Packageid, PkgName, PkgDesc FROM packages
+                                    $query = "SELECT Packageid, PkgName, PkgDesc, PkgBasePrice FROM packages
                                     WHERE Packageid = '6'
                                     ORDER BY Packageid";
                                     $res = $conn->query($query);
-
-                                    while ($row = $res->fetch_assoc()){
-                                      echo "<p class='packText'><span class='boxs'><strong>".$row['PkgName']."</strong></span></p>";
-                                      echo "<p class='packText2'>".$row['PkgDesc']."</p>";
-                                    }
+                                    echo "<div class='carousel-package--div'>";
+                                    echo "<p class='packText'>".$row['PkgName']."</p>";
+                                    echo "<p class='packText2'>".$row['PkgDesc']."</p>";
+                                    echo "<p class='packCost'>".$row['PkgBasePrice']."</p>";
+                                    echo "</div>";
                                      ?>
                                 </div>
                             </div>
@@ -232,43 +235,43 @@
                                 <div class="col">
                                     <img src="img/4European_Vacation/london/london.jpg" alt="">
                                     <?php
-                                    $query = "SELECT Packageid, PkgName, PkgDesc FROM packages
+                                    $query = "SELECT Packageid, PkgName, PkgDesc, PkgBasePrice FROM packages
                                     WHERE Packageid = '7'
                                     ORDER BY Packageid";
                                     $res = $conn->query($query);
-
-                                    while ($row = $res->fetch_assoc()){
-                                      echo "<p class='packText'><span class='boxs'><strong>".$row['PkgName']."</strong></span></p>";
-                                      echo "<p class='packText2'>".$row['PkgDesc']."</p>";
-                                    }
+                                    echo "<div class='carousel-package--div'>";
+                                    echo "<p class='packText'>".$row['PkgName']."</p>";
+                                    echo "<p class='packText2'>".$row['PkgDesc']."</p>";
+                                    echo "<p class='packCost'>".$row['PkgBasePrice']."</p>";
+                                    echo "</div>";
                                      ?>
                                 </div>
                                 <div class="col">
                                     <img src="img/4European_Vacation/paris/paris.jpg" alt="">
                                     <?php
-                                    $query = "SELECT Packageid, PkgName, PkgDesc FROM packages
+                                    $query = "SELECT Packageid, PkgName, PkgDesc, PkgBasePrice FROM packages
                                     WHERE Packageid = '4'
                                     ORDER BY Packageid";
                                     $res = $conn->query($query);
-
-                                    while ($row = $res->fetch_assoc()){
-                                      echo "<p class='packText'><span class='boxs'><strong>".$row['PkgName']."</strong></span></p>";
-                                      echo "<p class='packText2'>".$row['PkgDesc']."</p>";
-                                    }
+                                    echo "<div class='carousel-package--div'>";
+                                    echo "<p class='packText'>".$row['PkgName']."</p>";
+                                    echo "<p class='packText2'>".$row['PkgDesc']."</p>";
+                                    echo "<p class='packCost'>".$row['PkgBasePrice']."</p>";
+                                    echo "</div>";
                                      ?>
                                 </div>
                                 <div class="col">
                                     <img src="img/4European_Vacation/rome/rome-italy.jpg" alt="">
                                     <?php
-                                    $query = "SELECT Packageid, PkgName, PkgDesc FROM packages
+                                    $query = "SELECT Packageid, PkgName, PkgDesc, PkgBasePrice FROM packages
                                     WHERE Packageid = '8'
                                     ORDER BY Packageid";
                                     $res = $conn->query($query);
-
-                                    while ($row = $res->fetch_assoc()){
-                                      echo "<p class='packText'><span class='boxs'><strong>".$row['PkgName']."</strong></span></p>";
-                                      echo "<p class='packText2'>".$row['PkgDesc']."</p>";
-                                    }
+                                    echo "<div class='carousel-package--div'>";
+                                    echo "<p class='packText'>".$row['PkgName']."</p>";
+                                    echo "<p class='packText2'>".$row['PkgDesc']."</p>";
+                                    echo "<p class='packCost'>".$row['PkgBasePrice']."</p>";
+                                    echo "</div>";
                                      ?>
                                 </div>
                             </div>
