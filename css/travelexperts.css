@@ -63,10 +63,6 @@ h2:after, h3:after {
     content:none
 }
 
-.changeColor:after {
-    background-color: #ff9008;
-}
-
 h4 {
   font-size: 3rem;
   padding-top: 3rem;
