@@ -231,6 +231,34 @@ header h3 {
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
+/*---------------------------------------------*/
+/*PACKAGE TEXT SECTION- cole's push*/
+/*---------------------------------------------*/
+.packText{
+  /* font-size: 2rem;
+  padding-top: 1px; */
+  text-align: center;
+  /* border: 1px solid black;
+   */
+
+    /* box-shadow: 1px 1px 1px black inset;
+    text-shadow: 1px 1px 1px black; */
+}
+.boxs {
+  font-size:16px;
+  font-weight:bold;
+  width:auto;
+  padding-left: 5px;
+  padding-right: 5px;
+  border:1px solid #999;
+  border-radius: 10px;
+  background-color: lightgray;
+  box-shadow: 1px 1px 1px black inset;
+}
+.packText2{
+  padding-top: 5px;
+  text-align: center;
+}
 
 /*---------------------------------------------*/
 /*MAIN*/
