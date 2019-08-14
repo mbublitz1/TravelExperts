@@ -327,6 +327,19 @@ input[type="submit"] {
     text-transform: uppercase
 }
 
+button[type="button"] {
+    /* margin: 8% 0 0 31%; */
+    padding: 2rem 5rem;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    color: #000000;
+    font-size: 1.6rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    text-transform: uppercase
+}
+
+
 /*---------------------------------------------*/
 /*CONTACT*/
 /*---------------------------------------------*/
