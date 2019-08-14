@@ -17,10 +17,10 @@
 
         while ($row = $res->fetch_assoc()) {
           echo "<p>Phone:</p>";
-          echo $row['AgncyPhone'];
+          echo preg_replace("/^1?(\d{3})(\d{3})(\d{4})$/", "$1-$2-$3", $row['AgncyPhone']);
           echo "<br><br>";
           echo "<p>Fax:</p>";
-          echo $row['AgncyFax'];
+          echo preg_replace("/^1?(\d{3})(\d{3})(\d{4})$/", "$1-$2-$3", $row['AgncyFax']);
           echo "<br><br><br>";
         }
           ?>
@@ -36,10 +36,10 @@
 
           while ($row = $res->fetch_assoc()) {
             echo "<p>Phone:</p>";
-            echo $row['AgncyPhone'];
+            echo preg_replace("/^1?(\d{3})(\d{3})(\d{4})$/", "$1-$2-$3", $row['AgncyPhone']);
             echo "<br><br>";
             echo "<p>Fax:</p>";
-            echo $row['AgncyFax'];
+            echo preg_replace("/^1?(\d{3})(\d{3})(\d{4})$/", "$1-$2-$3", $row['AgncyFax']);
             echo "<br><br><br>";
           }
             ?>
