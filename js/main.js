@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('.heading-text-box h3').addClass('added-class');
-    $('#Register h3').addClass('added-class');
+    $('#Register h3').addClass('changeColor');
 
     var offset = 220;
     var duration = 800;
