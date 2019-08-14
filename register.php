@@ -27,6 +27,20 @@
             <input type="text" name="CustBusPhone">
             <label for="CustEmail">Email:</label>
             <input type="email" name="CustEmail" required>
+            <label for="PkgName">Package:</label>
+            <select name="PkgName">
+              <option disabled selected>Package Name</option>
+              <?php
+                $query = "SELECT PkgName FROM packages
+                ORDER BY PkgName";
+                $res = $conn->query($query);
+
+                while ($row = $res->fetch_assoc()) {
+                   echo "<option value=" . $row[PkgName] . ">" . $row[PkgName] . "</option>";
+                }
+              ?>
+            </select>
+
             <input type="Submit" name="Submit" value="Submit">
         </div>
     </div>

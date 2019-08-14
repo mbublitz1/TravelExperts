@@ -288,7 +288,8 @@ main > section:nth-of-type(odd) {
 }
 
 .signup-form label,
-.signup-form input {
+.signup-form input,
+.signup-form select {
     display: inline-block;
     margin-top: 1rem;
     width: 100%;
@@ -300,7 +301,8 @@ main > section:nth-of-type(odd) {
     width: 30%;
     font-weight: bold;
 }
-.signup-form input {
+.signup-form input,
+.signup-form select {
     padding: 0.4rem;
     width: 68%;
     border-radius: 5px;
@@ -322,7 +324,7 @@ input[type="submit"] {
     font-size: 1.6rem;
     border-radius: .5rem;
     cursor: pointer;
-    text-transform: uppercase;
+    text-transform: uppercase
 }
 
 /*---------------------------------------------*/
