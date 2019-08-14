@@ -1,0 +1,42 @@
+
+Asia:
+
+INSERT INTO `packages` (`PackageId`, `PkgName`, `PkgStartDate`, `PkgEndDate`, `PkgDesc`, `PkgBasePrice`, `PkgAgencyCommission`) 
+VALUES (NULL, 'Singapore Landmarks', '2019-08-13 00:00:00', '2019-12-31 00:00:00', '7 Day Tour of Famous Landmarks in Singapore', '5500.0000', '380.0000');
+
+INSERT INTO `packages` (`PackageId`, `PkgName`, `PkgStartDate`, `PkgEndDate`, `PkgDesc`, `PkgBasePrice`, `PkgAgencyCommission`) 
+VALUES (NULL, 'Famed Boracay Island', '2019-08-13 00:00:00', '2019-12-12 00:00:00', 'Voyage To The Famous Boracay Beaches and Resorts.', '4000.0000', '280.0000');
+
+
+London:
+INSERT INTO `packages` (`PackageId`, `PkgName`, `PkgStartDate`, `PkgEndDate`, `PkgDesc`, `PkgBasePrice`, `PkgAgencyCommission`) 
+VALUES (NULL, 'Spirit of London Tour ', '2019-08-13 00:00:00', '2019-12-12 00:00:00', 'Enjoy a Tour Famous Monuments in London.', '4000.0000', '310.0000');
+
+italy:
+INSERT INTO `packages` (`PackageId`, `PkgName`, `PkgStartDate`, `PkgEndDate`, `PkgDesc`, `PkgBasePrice`, `PkgAgencyCommission`)
+ VALUES (NULL, 'Walking Tour in Florence ', '2019-08-13 00:00:00', '2019-12-12 00:00:00', 'Enjoy Italy\'s World Famous Food, Wine, and Art.', '5000.0000', '370.0000');
+
+
+
+
+
+(Cole's note I added the other two(for Caribbean), for the pushed to be done)
+
+bora bora
+INSERT INTO `packages` (`PackageId`, `PkgName`, `PkgStartDate`, `PkgEndDate`, `PkgDesc`, `PkgBasePrice`, `PkgAgencyCommission`) 
+VALUES (NULL, 'Bora Bora Romantic Destination ', '2019-08-30 00:00:00', '2019-09-30 00:00:00', 'Bora Bora Vacations And Honeymoon Packages ', '4000.0000', '200.0000');
+Mo'orea island
+INSERT INTO `packages` (`PackageId`, `PkgName`, `PkgStartDate`, `PkgEndDate`, `PkgDesc`, `PkgBasePrice`, `PkgAgencyCommission`) 
+VALUES (NULL, 'Mo\'orea Island ', '2019-08-30 00:00:00', '2019-09-30 00:00:00', 'Moorea Is The World\'s Most Beautiful Island!', '2500.0000', '200.0000');
+
+
+
+
+
+
+
+INSERT INTO `packages` (`PackageId`, `PkgName`, `PkgStartDate`, `PkgEndDate`, `PkgDesc`, `PkgBasePrice`, `PkgAgencyCommission`) 
+VALUES (NULL, 'Trinidad & Tobago Yacht Charter Guide', '2019-08-13 00:00:00', '2019-08-31 00:00:00', 'Explore Golden Sand Beaches and the Landmarks. ', '3000.00', '290');
+
+INSERT INTO `packages` (`PackageId`, `PkgName`, `PkgStartDate`, `PkgEndDate`, `PkgDesc`, `PkgBasePrice`, `PkgAgencyCommission`) 
+VALUES (NULL, 'Caribbean Paradise', '2019-08-13 00:00:00', '2019-08-31 00:00:00', 'Bask in the Tropical Sun and Enjoy Life.', '5000', '380');
