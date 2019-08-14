@@ -100,6 +100,7 @@
                                     echo "<p class='pkgHeader'>" .$row['PkgName']."</p>";
                                     echo "<p class='pkgDesc'>" .$row['PkgDesc']."</p>";
                                     echo "<p class='pkgCost'>" ."$ ".$price."</p>";
+                                    echo "<button type=\"button\" onclick=\"plsReg()\">Purchase</button>";
                                     echo "</div>";
                                      ?>
                                 </div>
@@ -116,6 +117,7 @@
                                     echo "<p class='pkgHeader'>" .$row['PkgName']."</p>";
                                     echo "<p class='pkgDesc'>" .$row['PkgDesc']."</p>";
                                     echo "<p class='pkgCost'>" ."$ ".$price."</p>";
+                                    echo "<button type=\"button\" onclick=\"plsReg()\">Purchase</button>";
                                     echo "</div>";
                                      ?>
                                 </div>
@@ -131,6 +133,7 @@
                                     echo "<p class='pkgHeader'>" .$row['PkgName']."</p>";
                                     echo "<p class='pkgDesc'>" .$row['PkgDesc']."</p>";
                                     echo "<p class='pkgCost'>" ."$ ".$price."</p>";
+                                    echo "<button type=\"button\" onclick=\"plsReg()\">Purchase</button>";
                                     echo "</div>";
                                      ?>
                                 </div>
@@ -151,6 +154,7 @@
                                     echo "<p class='pkgHeader'>" .$row['PkgName']."</p>";
                                     echo "<p class='pkgDesc'>" .$row['PkgDesc']."</p>";
                                     echo "<p class='pkgCost'>" ."$ ".$price."</p>";
+                                    echo "<button type=\"button\" onclick=\"plsReg()\">Purchase</button>";
                                     echo "</div>";
                                      ?>
                                 </div>
@@ -166,6 +170,7 @@
                                     echo "<p class='pkgHeader'>" .$row['PkgName']."</p>";
                                     echo "<p class='pkgDesc'>" .$row['PkgDesc']."</p>";
                                     echo "<p class='pkgCost'>" ."$ ".$price."</p>";
+                                    echo "<button type=\"button\" onclick=\"plsReg()\">Purchase</button>";
                                     echo "</div>";
                                      ?>
                                 </div>
@@ -182,6 +187,7 @@
                                     echo "<p class='pkgHeader'>" .$row['PkgName']."</p>";
                                     echo "<p class='pkgDesc'>" .$row['PkgDesc']."</p>";
                                     echo "<p class='pkgCost'>" ."$ ".$price."</p>";
+                                    echo "<button type=\"button\" onclick=\"plsReg()\">Purchase</button>";
                                     echo "</div>";
                                      ?>
                                 </div>
@@ -202,6 +208,7 @@
                                     echo "<p class='pkgHeader'>" .$row['PkgName']."</p>";
                                     echo "<p class='pkgDesc'>" .$row['PkgDesc']."</p>";
                                     echo "<p class='pkgCost'>" ."$ ".$price."</p>";
+                                    echo "<button type=\"button\" onclick=\"plsReg()\">Purchase</button>";
                                     echo "</div>";
                                      ?>
                                 </div>
@@ -217,6 +224,7 @@
                                     echo "<p class='pkgHeader'>" .$row['PkgName']."</p>";
                                     echo "<p class='pkgDesc'>" .$row['PkgDesc']."</p>";
                                     echo "<p class='pkgCost'>" ."$ ".$price."</p>";
+                                    echo "<button type=\"button\" onclick=\"plsReg()\">Purchase</button>";
                                     echo "</div>";
                                      ?>
                                 </div>
@@ -232,6 +240,7 @@
                                     echo "<p class='pkgHeader'>" .$row['PkgName']."</p>";
                                     echo "<p class='pkgDesc'>" .$row['PkgDesc']."</p>";
                                     echo "<p class='pkgCost'>" ."$ ".$price."</p>";
+                                    echo "<button type=\"button\" onclick=\"plsReg()\">Purchase</button>";
                                     echo "</div>";
                                      ?>
                                 </div>
@@ -252,6 +261,7 @@
                                     echo "<p class='pkgHeader'>" .$row['PkgName']."</p>";
                                     echo "<p class='pkgDesc'>" .$row['PkgDesc']."</p>";
                                     echo "<p class='pkgCost'>" ."$ ".$price."</p>";
+                                    echo "<button type=\"button\" onclick=\"plsReg()\">Purchase</button>";
                                     echo "</div>";
                                      ?>
                                 </div>
@@ -267,6 +277,7 @@
                                     echo "<p class='pkgHeader'>" .$row['PkgName']."</p>";
                                     echo "<p class='pkgDesc'>" .$row['PkgDesc']."</p>";
                                     echo "<p class='pkgCost'>" ."$ ".$price."</p>";
+                                    echo "<button type=\"button\" onclick=\"plsReg()\">Purchase</button>";
                                     echo "</div>";
                                      ?>
                                 </div>
@@ -282,6 +293,7 @@
                                     echo "<p class='pkgHeader'>" .$row['PkgName']."</p>";
                                     echo "<p class='pkgDesc'>" .$row['PkgDesc']."</p>";
                                     echo "<p class='pkgCost'>" ."$ ".$price."</p>";
+                                    echo "<button type=\"button\" onclick=\"plsReg()\">Purchase</button>";
                                     echo "</div>";
                                      ?>
                                 </div>
@@ -306,9 +318,6 @@
             </section>
 <!--            Contact Section - Sumit-->
             <section id="ContactUs">
-
-              <button type="button" onclick="plsReg()">Purchase</button>
-
               <?php
                 include("contact-us.php");
               ?>
