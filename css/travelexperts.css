@@ -269,6 +269,10 @@ main > section:nth-of-type(odd) {
 /*---------------------------------------------*/
 /*REGISTRATION*/
 /*---------------------------------------------*/
+#register {
+    margin-top: 10px;
+}
+
 .registration--main_form {
     padding-bottom: 3%;
 }

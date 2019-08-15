@@ -128,6 +128,7 @@
                                     WHERE Packageid = '13'
                                     ORDER BY Packageid";
                                     $res = $conn->query($query);
+                                    $row = $res->fetch_assoc();
                                     $price = number_format($row['PkgBasePrice'], 2);
                                     echo "<div class='carousel-package--div'>";
                                     echo "<p class='pkgHeader'>" .$row['PkgName']."</p>";
@@ -149,6 +150,7 @@
                                     WHERE Packageid = '10'
                                     ORDER BY Packageid";
                                     $res = $conn->query($query);
+                                    $row = $res->fetch_assoc();
                                     $price = number_format($row['PkgBasePrice'], 2);
                                     echo "<div class='carousel-package--div'>";
                                     echo "<p class='pkgHeader'>" .$row['PkgName']."</p>";
@@ -165,6 +167,7 @@
                                     WHERE Packageid = '2'
                                     ORDER BY Packageid";
                                     $res = $conn->query($query);
+                                    $row = $res->fetch_assoc();
                                     $price = number_format($row['PkgBasePrice'], 2);
                                     echo "<div class='carousel-package--div'>";
                                     echo "<p class='pkgHeader'>" .$row['PkgName']."</p>";
@@ -203,6 +206,7 @@
                                     WHERE Packageid = '5'
                                     ORDER BY Packageid";
                                     $res = $conn->query($query);
+                                    $row = $res->fetch_assoc();
                                     $price = number_format($row['PkgBasePrice'], 2);
                                     echo "<div class='carousel-package--div'>";
                                     echo "<p class='pkgHeader'>" .$row['PkgName']."</p>";
@@ -219,6 +223,7 @@
                                     WHERE Packageid = '3'
                                     ORDER BY Packageid";
                                     $res = $conn->query($query);
+                                    $row = $res->fetch_assoc();
                                     $price = number_format($row['PkgBasePrice'], 2);
                                     echo "<div class='carousel-package--div'>";
                                     echo "<p class='pkgHeader'>" .$row['PkgName']."</p>";
@@ -235,6 +240,7 @@
                                     WHERE Packageid = '6'
                                     ORDER BY Packageid";
                                     $res = $conn->query($query);
+                                    $row = $res->fetch_assoc();
                                     $price = number_format($row['PkgBasePrice'], 2);
                                     echo "<div class='carousel-package--div'>";
                                     echo "<p class='pkgHeader'>" .$row['PkgName']."</p>";
@@ -256,6 +262,7 @@
                                     WHERE Packageid = '7'
                                     ORDER BY Packageid";
                                     $res = $conn->query($query);
+                                    $row = $res->fetch_assoc();
                                     $price = number_format($row['PkgBasePrice'], 2);
                                     echo "<div class='carousel-package--div'>";
                                     echo "<p class='pkgHeader'>" .$row['PkgName']."</p>";
@@ -272,6 +279,7 @@
                                     WHERE Packageid = '4'
                                     ORDER BY Packageid";
                                     $res = $conn->query($query);
+                                    $row = $res->fetch_assoc();
                                     $price = number_format($row['PkgBasePrice'], 2);
                                     echo "<div class='carousel-package--div'>";
                                     echo "<p class='pkgHeader'>" .$row['PkgName']."</p>";
@@ -288,6 +296,7 @@
                                     WHERE Packageid = '8'
                                     ORDER BY Packageid";
                                     $res = $conn->query($query);
+                                    $row = $res->fetch_assoc();
                                     $price = number_format($row['PkgBasePrice'], 2);
                                     echo "<div class='carousel-package--div'>";
                                     echo "<p class='pkgHeader'>" .$row['PkgName']."</p>";
