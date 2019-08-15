@@ -28,6 +28,7 @@ body {
 .box {
     padding: 1%;
 }
+
 #form label.error {
     display: block;
     color: red;
@@ -36,12 +37,7 @@ body {
     padding-right: 25%;
 }
 
-header, main, footer {}
-
 /*  Typograhical Scales  */
-h
-{  }
-h2 {  }
 h3 {
     font-size: 5rem;
     padding-top: 4rem;
@@ -61,6 +57,10 @@ h2:after, h3:after {
 
 .added-class:after {
     content:none
+}
+
+.addLine:after {
+    background-color: orange;
 }
 
 h4 {
@@ -204,6 +204,13 @@ header h3 {
 /*---------------------------------------------*/
 /*PLAN SECTION*/
 /*---------------------------------------------*/
+#Plans {
+    height: 900px;
+}
+
+.carousel-inner {
+    height: 760px;
+}
 
 .carousel-item {
     padding-top: 2%;
@@ -227,6 +234,20 @@ header h3 {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon
+{
+    margin-top: -80px;
+    margin-left: -180px;
+}
+
+.carousel-control-next-icon {
+    margin-right: -358px;
+}
+
+.carousel-indicators li {
+    background-color: red;
+}
 .pkgHeader{
     color: #1066bb;
     font-size: 22px;
@@ -245,52 +266,10 @@ header h3 {
     font-weight: bold;
     padding: 35px;
 }
-/*---------------------------------------------*/
-/*PACKAGE TEXT SECTION- cole's push*/
-/*---------------------------------------------*/
-
-
-.carousel-inner {
-    height: 65rem;
-}
-
-.carousel-item {
-    padding-top: 2%;
-    text-align: center;
-}
-
-.carousel-item h4 {
-    padding: 1%;
-}
-
-.carousel-item img {
-    padding: 1%;
-    /*width: 80%;*/
-    /*height: 80%;*/
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon
-{
-    margin-top: -80px;
-    margin-left: -180px;
-}
-
-.carousel-control-next-icon {
-    margin-right: -358px;
-}
-
-.carousel-indicators li {
-    background-color: red;
-}
 
 /*---------------------------------------------*/
 /*MAIN*/
 /*---------------------------------------------*/
-
-/*main > section {*/
-/*    height: 500px;*/
-/*}*/
 
 main > section:nth-of-type(odd) {
     background: white;
@@ -337,8 +316,12 @@ main > section:nth-of-type(odd) {
 }
 
 #registerbtn {
-    padding-top: 6%;
-    margin-left: -100px;
+    /*padding-top: 6%;*/
+    /*margin-left: -100px;*/
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, 30%);
     height: 90%;
     width: 90%;
 }
@@ -377,7 +360,6 @@ button[type="button"] {
     padding-top: 40px;
     text-align: center;
 }
-footer{}
 
 /*a:link a:visited { color: #999999; }*/
 /*a:hover a:active { color: #000000; }*/
