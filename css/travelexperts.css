@@ -204,12 +204,8 @@ header h3 {
 /*---------------------------------------------*/
 /*PLAN SECTION*/
 /*---------------------------------------------*/
-#Plans {
-    height: 900px;
-}
-
 .carousel-inner {
-    height: 760px;
+    padding-bottom: 40px;
 }
 
 .carousel-item {
@@ -232,17 +228,14 @@ header h3 {
 
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    margin-right: -360px;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon
 {
-    margin-top: -80px;
+    margin-top: -140px;
     margin-left: -180px;
-}
-
-.carousel-control-next-icon {
-    margin-right: -358px;
 }
 
 .carousel-indicators li {
@@ -316,8 +309,6 @@ main > section:nth-of-type(odd) {
 }
 
 #registerbtn {
-    /*padding-top: 6%;*/
-    /*margin-left: -100px;*/
     position: relative;
     top: 50%;
     left: 50%;
